@@ -1,0 +1,33 @@
+{
+    "name": {
+        "en": "Switches"
+    },
+    "class": "socket",
+    "capabilities": [
+        "onoff"
+    ],
+    "images": {
+        "small": "/drivers/my_driver/assets/images/small.png",
+        "large": "/drivers/my_driver/assets/images/large.png",
+        "xlarge": "/drivers/my_driver/assets/images/xlarge.png"
+    },
+    "platforms": [
+        "local"
+    ],
+    "connectivity": [
+        "lan"
+    ],
+    "pair": [
+        {
+            "id": "list_devices",
+            "template": "list_devices",
+            "navigation": {
+                "next": "add_devices"
+            }
+        },
+        {
+            "id": "add_devices",
+            "template": "add_devices"
+        }
+    ]
+}
