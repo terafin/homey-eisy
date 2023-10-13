@@ -29,16 +29,17 @@
   "drivers": [
     {
       "name": {
-        "en": "Switches"
+        "en": "eISY Devices"
       },
       "class": "socket",
       "capabilities": [
-        "onoff"
+        "onoff",
+        "dim"
       ],
       "images": {
-        "small": "/drivers/my_driver/assets/images/small.png",
-        "large": "/drivers/my_driver/assets/images/large.png",
-        "xlarge": "/drivers/my_driver/assets/images/xlarge.png"
+        "small": "/assets/icon.svg",
+        "large": "/assets/icon.svg",
+        "xlarge": "/assets/icon.svg"
       },
       "platforms": [
         "local"

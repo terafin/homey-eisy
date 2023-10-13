@@ -155,3 +155,7 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+# Added by Homey CLI
+/.homeybuild/
